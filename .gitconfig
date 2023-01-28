@@ -1,2 +1,6 @@
 [safe]
 	directory = /home/ec2-user
+	directory = /home/ec2-user
+[user]
+	email = pranaypeb15@gmail.com
+	name = pranaybujji015
