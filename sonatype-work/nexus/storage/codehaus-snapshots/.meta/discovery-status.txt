@@ -1,0 +1,6 @@
+#Nexus discovery status
+#Wed Jan 04 14:07:46 UTC 2023
+lastDiscoveryStrategy=prefix-file
+lastDiscoveryStatus=ERROR
+lastDiscoveryTimestamp=1672841266817
+lastDiscoveryMessage=nexus.codehaus.org\: Name or service not known

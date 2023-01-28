@@ -1,0 +1,261 @@
+2023-01-04 13:55:57,277+0000 INFO  [main]  org.sonatype.nexus.events.EventSubscriberHost - Initialized
+2023-01-04 13:55:57,310+0000 INFO  [main]  org.sonatype.nexus.NxApplication - 
+-------------------------------------------------
+
+Initializing Sonatype Nexus 2.11.4-01
+
+-------------------------------------------------
+2023-01-04 13:55:57,310+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Activating locally installed plugins...
+2023-01-04 13:56:01,597+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.WebSiteRepository:site).
+2023-01-04 13:56:44,170+0000 INFO  [main]  org.sonatype.nexus.plugins.bcprov.CryptoPlugin - Unlimited strength JCE policy detected
+2023-01-04 13:56:44,588+0000 INFO  [main]  org.sonatype.nexus.kazuki.KazukiPlugin - Kazuki version: 0.1.8
+2023-01-04 13:56:52,696+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.GroupRepository:nuget-group).
+2023-01-04 13:56:52,702+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.Repository:nuget-proxy).
+2023-01-04 13:56:52,703+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.ShadowRepository:nuget-shadow).
+2023-01-04 13:56:54,199+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-webresources-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,200+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-site-repository-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,200+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-kazuki-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,200+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-wonderland-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,200+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-yum-repository-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,200+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-indexer-lucene-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,200+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-groovy-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,202+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugins:nexus-analytics-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,202+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-maven-bridge-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,203+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-logging-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,203+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugins:nexus-nuget-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,203+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-timeline-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,203+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-capabilities-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,210+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-plugin-console-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,211+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-restlet1x-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,211+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-ldap-realm-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,211+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-rrb-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,211+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugins:nexus-healthcheck-oss-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,211+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugins:nexus-outreach-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,211+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-siesta-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,211+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-ui-extjs3-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,212+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-archetype-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,212+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-atlas-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,212+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-h2-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,212+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-crypto-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,212+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-content-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,212+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-lvo-plugin:2.11.4-01" was successful.
+2023-01-04 13:56:54,213+0000 INFO  [main]  org.sonatype.nexus.events.EventSubscriberHost - Starting
+2023-01-04 13:56:54,508+0000 INFO  [main]  org.sonatype.nexus.apachehttpclient.Hc4ProviderImpl - Started (connectionPoolMaxSize 200, connectionPoolSize 20, connectionPoolIdleTime 30000 ms, connectionPoolTimeout 30000 ms, keepAliveMaxDuration 30000 ms)
+2023-01-04 13:56:54,540+0000 INFO  [main]  org.sonatype.nexus.timeline.DefaultNexusTimeline - Initializing Nexus Timeline...
+2023-01-04 13:56:54,546+0000 INFO  [main]  org.sonatype.nexus.timeline.DefaultNexusTimeline - Starting Nexus Timeline...
+2023-01-04 13:56:54,894+0000 INFO  [main]  org.sonatype.timeline.internal.DefaultTimeline - Started Timeline...
+2023-01-04 13:56:55,746+0000 INFO  [main]  org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Loading Nexus Configuration...
+2023-01-04 13:56:55,761+0000 INFO  [main]  org.sonatype.nexus.configuration.source.StaticConfigurationSource - Configuration loaded successfully.
+2023-01-04 13:56:55,777+0000 INFO  [main]  org.sonatype.nexus.configuration.source.FileConfigurationSource - Configuration loaded successfully.
+2023-01-04 13:56:55,967+0000 INFO  [main]  org.sonatype.nexus.configuration.source.FileConfigurationSource - Nexus configuration validated successfully.
+2023-01-04 13:56:56,041+0000 INFO  [main]  org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Applying Nexus Configuration...
+2023-01-04 13:56:56,056+0000 INFO  [main]  org.sonatype.security.configuration.source.FileSecurityConfigurationSource - Loading Security configuration from /home/ec2-user/sonatype-work/nexus/conf/security-configuration.xml
+2023-01-04 13:56:56,068+0000 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Cache with name 'XmlAuthenticatingRealm.authorizationCache' does not yet exist.  Creating now.
+2023-01-04 13:56:56,071+0000 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Added EhCache named [XmlAuthenticatingRealm.authorizationCache]
+2023-01-04 13:56:56,072+0000 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Cache with name 'XmlAuthorizingRealm.authorizationCache' does not yet exist.  Creating now.
+2023-01-04 13:56:56,079+0000 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Added EhCache named [XmlAuthorizingRealm.authorizationCache]
+2023-01-04 13:56:56,125+0000 INFO  [main]  org.sonatype.nexus.proxy.attributes.DefaultLSAttributeStorage - Default FS AttributeStorage in place, using JacksonJSON marshaller.
+2023-01-04 13:56:56,641+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Central" [id=central][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
+2023-01-04 13:56:56,690+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Apache Snapshots" [id=apache-snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
+2023-01-04 13:56:56,728+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Codehaus Snapshots" [id=codehaus-snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
+2023-01-04 13:56:56,783+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Releases" [id=releases][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2023-01-04 13:56:56,835+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Snapshots" [id=snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2023-01-04 13:56:56,873+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "3rd party" [id=thirdparty][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2023-01-04 13:56:56,906+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Central M1 shadow" [id=central-m1][contentClass=Maven1][mainFacet=org.sonatype.nexus.proxy.maven.MavenShadowRepository]
+2023-01-04 13:56:56,986+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Public Repositories" [id=public][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.repository.GroupRepository]
+2023-01-04 13:56:56,986+0000 INFO  [main]  org.sonatype.scheduling.DefaultScheduler - Initializing Scheduler...
+2023-01-04 13:56:56,986+0000 INFO  [main]  org.sonatype.nexus.scheduling.internal.DefaultTaskConfigManager - 0 task(s) to load.
+2023-01-04 13:56:56,990+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Nexus Work Directory : /home/ec2-user/sonatype-work/nexus
+2023-01-04 13:56:56,990+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Started Sonatype Nexus 2.11.4-01
+2023-01-04 13:56:57,555+0000 INFO  [main]  com.sonatype.nexus.plugins.nuget.odata.NugetODataGalleryMigrator - Starting Nuget DB migration.
+2023-01-04 13:56:57,564+0000 INFO  [main]  com.sonatype.nexus.plugins.nuget.odata.NugetODataGalleryMigrator - Completed Nuget DB migration.
+2023-01-04 13:56:58,018+0000 WARN  [ar-4-thread-3] *TASK org.sonatype.nexus.proxy.maven.routing.internal.RemoteContentDiscovererImpl - Remote strategy prefix-file error on M2Repository(id=codehaus-snapshots): java.net.UnknownHostException: nexus.codehaus.org: Name or service not known
+2023-01-04 13:56:58,372+0000 INFO  [main]  org.sonatype.nexus.webapp.WebappBootstrap - Initialized
+2023-01-04 13:56:58,854+0000 INFO  [main]  org.sonatype.nexus.rest.NexusApplication_UriMatching - Strict URI matching: true
+2023-01-04 13:56:59,086+0000 INFO  [ar-4-thread-4] *TASK org.sonatype.nexus.proxy.storage.remote.httpclient.HttpClientRemoteStorage - Initializing remote transport for proxy repository "Apache Snapshots" [id=apache-snapshots]...
+2023-01-04 13:56:59,170+0000 INFO  [ar-4-thread-2] *TASK org.sonatype.nexus.proxy.storage.remote.httpclient.HttpClientRemoteStorage - Initializing remote transport for proxy repository "Central" [id=central]...
+2023-01-04 13:56:59,230+0000 INFO  [main]  org.sonatype.nexus.configuration.ModelUtils - Loading model /home/ec2-user/sonatype-work/nexus/conf/lvo-plugin.xml
+2023-01-04 13:56:59,272+0000 INFO  [main]  org.sonatype.nexus.configuration.ModelUtils - Loading model /home/ec2-user/sonatype-work/nexus/conf/ldap.xml
+2023-01-04 13:56:59,339+0000 INFO  [ar-4-thread-2] *TASK org.sonatype.nexus.proxy.maven.routing.internal.RemoteContentDiscovererImpl - Remote strategy prefix-file on M2Repository(id=central) detected invalid input, results discarded: Prefix file size exceeds maximum allowed size (100000), refusing to load it.
+2023-01-04 13:56:59,718+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule - Resources:
+2023-01-04 13:56:59,718+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/analytics/events
+2023-01-04 13:56:59,718+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/analytics/settings
+2023-01-04 13:56:59,718+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/atlas/security-diagnostic
+2023-01-04 13:56:59,718+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/atlas/support-zip
+2023-01-04 13:56:59,718+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/atlas/system-information
+2023-01-04 13:56:59,719+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/capabilities
+2023-01-04 13:56:59,719+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/capabilities/stores
+2023-01-04 13:56:59,720+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/capabilities/types
+2023-01-04 13:56:59,720+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/gaDetails
+2023-01-04 13:56:59,720+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/gavDetails
+2023-01-04 13:56:59,720+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckEula
+2023-01-04 13:56:59,720+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckInfo
+2023-01-04 13:56:59,727+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckStatus
+2023-01-04 13:56:59,727+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckSummary/{repositoryId}/{path:.*}
+2023-01-04 13:56:59,727+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/logging/log
+2023-01-04 13:56:59,728+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/logging/loggers
+2023-01-04 13:56:59,728+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/wonderland/authenticate
+2023-01-04 13:56:59,728+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/wonderland/download
+2023-01-04 13:56:59,728+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/wonderland/settings
+2023-01-04 13:56:59,728+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule - Components:
+2023-01-04 13:56:59,728+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.capabilities.internal.rest.CapabilityNotFoundExceptionMapper
+2023-01-04 13:56:59,728+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.siesta.AuthorizationExceptionMapper
+2023-01-04 13:56:59,728+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.siesta.InvalidConfigurationExceptionMapper
+2023-01-04 13:56:59,728+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.siesta.NoSuchRepositoryExceptionMapper
+2023-01-04 13:56:59,728+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.jackson.JacksonProvider
+2023-01-04 13:56:59,728+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.BadRequestExceptionMapper
+2023-01-04 13:56:59,728+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ConstraintViolationExceptionMapper
+2023-01-04 13:56:59,728+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.InvalidObjectExceptionMapper
+2023-01-04 13:56:59,728+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ObjectNotFoundExceptionMapper
+2023-01-04 13:56:59,728+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ThrowableExceptionMapper
+2023-01-04 13:56:59,728+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ValidationErrorsExceptionMapper
+2023-01-04 13:56:59,728+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.WebApplicationExceptionMapper
+2023-01-04 13:56:59,729+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.WebApplicationMessageExceptionMapper
+2023-01-04 13:57:01,480+0000 INFO  [main]  org.sonatype.nexus.webresources.internal.WebResourceServiceImpl - Discovered 1967 resources
+2023-01-04 13:57:01,481+0000 INFO  [main]  org.sonatype.nexus.webresources.internal.WebResourceServlet - Max-age: 30 days (2592000 seconds)
+2023-01-04 13:57:29,782+0000 INFO  [http-nio-8080-exec-8]  org.apache.shiro.nexus5727.FixedDefaultWebSessionManager - Global session timeout: 1800000 ms
+2023-01-04 13:57:29,783+0000 INFO  [http-nio-8080-exec-8]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Enabling session validation scheduler...
+2023-01-04 13:57:29,872+0000 INFO  [http-nio-8080-exec-8] *UNKNOWN org.sonatype.nexus.velocity.VelocityEngineProvider - Creating Nexus VelocityEngine
+2023-01-04 13:57:39,009+0000 INFO  [http-nio-8080-exec-2] *UNKNOWN org.sonatype.security.model.source.FileModelConfigurationSource - Loading security configuration from: /home/ec2-user/sonatype-work/nexus/conf/security.xml
+2023-01-04 13:57:43,490+0000 INFO  [proxy-3-thread-2] anonymous org.sonatype.nexus.proxy.storage.remote.httpclient.HttpClientRemoteStorage - Initializing remote transport for proxy repository "Codehaus Snapshots" [id=codehaus-snapshots]...
+2023-01-04 13:57:43,495+0000 WARN  [proxy-3-thread-2] anonymous org.sonatype.nexus.proxy.maven.maven2.M2Repository - Remote peer of proxy repository "Codehaus Snapshots" [id=codehaus-snapshots] threw a org.sonatype.nexus.proxy.RemoteStorageException exception. Connection/transport problems occured while connecting to remote peer of the repository. Auto-blocking this repository to prevent further connection-leaks and known-to-fail outbound connections until administrator fixes the problems, or Nexus detects remote repository as healthy. - Cause(s): Transport error while executing GET method [repositoryId="codehaus-snapshots", requestPath="/", remoteUrl="https://nexus.codehaus.org/snapshots/"] > nexus.codehaus.org
+2023-01-04 13:57:43,500+0000 INFO  [RepositoryStatusChecker-codehaus-snapshots]  org.sonatype.nexus.proxy.maven.maven2.M2Repository-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 40 seconds.
+2023-01-04 13:58:23,501+0000 INFO  [RepositoryStatusChecker-codehaus-snapshots]  org.sonatype.nexus.proxy.maven.maven2.M2Repository-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 1 minute 20 seconds.
+2023-01-04 13:59:43,501+0000 INFO  [RepositoryStatusChecker-codehaus-snapshots]  org.sonatype.nexus.proxy.maven.maven2.M2Repository-codehaus-snapshots - Next attempt to auto-unblock the "Codehaus Snapshots" (id=codehaus-snapshots) repository by checking its remote peer health will occur in 2 minutes.
+2023-01-04 14:00:36,306+0000 INFO  [main]  org.sonatype.nexus.webapp.WebappBootstrap - Destroying
+2023-01-04 14:00:36,328+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Uptime: 4 minutes, 51 seconds and 816 milliseconds
+2023-01-04 14:00:36,332+0000 INFO  [main]  org.sonatype.scheduling.DefaultScheduler - Shutting down Scheduler...
+2023-01-04 14:00:36,378+0000 INFO  [main]  org.sonatype.nexus.index.DefaultIndexerManager - Shutting down Nexus IndexerManager
+2023-01-04 14:00:36,382+0000 INFO  [main]  org.sonatype.nexus.apachehttpclient.Hc4ProviderImpl - Stopped
+2023-01-04 14:00:36,400+0000 INFO  [main]  org.sonatype.nexus.timeline.DefaultNexusTimeline - Stopping Nexus Timeline...
+2023-01-04 14:00:36,402+0000 INFO  [main]  org.sonatype.timeline.internal.DefaultTimeline - Stopped Timeline...
+2023-01-04 14:00:36,402+0000 INFO  [main]  org.sonatype.nexus.events.EventSubscriberHost - Stopping
+2023-01-04 14:00:36,405+0000 INFO  [main]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Disabled session validation scheduler.
+2023-01-04 14:00:36,406+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Stopped Sonatype Nexus 2.11.4-01
+2023-01-04 14:00:36,419+0000 INFO  [main]  org.sonatype.nexus.webapp.WebappBootstrap - Destroyed
+2023-01-04 14:06:47,703+0000 INFO  [main]  org.sonatype.nexus.events.EventSubscriberHost - Initialized
+2023-01-04 14:06:47,716+0000 INFO  [main]  org.sonatype.nexus.NxApplication - 
+-------------------------------------------------
+
+Initializing Sonatype Nexus 2.11.4-01
+
+-------------------------------------------------
+2023-01-04 14:06:47,716+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Activating locally installed plugins...
+2023-01-04 14:06:51,564+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.WebSiteRepository:site).
+2023-01-04 14:07:33,283+0000 INFO  [main]  org.sonatype.nexus.plugins.bcprov.CryptoPlugin - Unlimited strength JCE policy detected
+2023-01-04 14:07:33,598+0000 INFO  [main]  org.sonatype.nexus.kazuki.KazukiPlugin - Kazuki version: 0.1.8
+2023-01-04 14:07:41,297+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.GroupRepository:nuget-group).
+2023-01-04 14:07:41,297+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.Repository:nuget-proxy).
+2023-01-04 14:07:41,297+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryTypeRegistry - Registered Repository type RepositoryType=(org.sonatype.nexus.proxy.repository.ShadowRepository:nuget-shadow).
+2023-01-04 14:07:42,840+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-webresources-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,840+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-site-repository-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,840+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-kazuki-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,840+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-wonderland-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,840+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-yum-repository-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,840+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-indexer-lucene-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,840+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-groovy-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,841+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugins:nexus-analytics-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,841+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-maven-bridge-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,841+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-logging-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,841+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugins:nexus-nuget-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,841+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-timeline-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,841+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-capabilities-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,846+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-plugin-console-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,847+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-restlet1x-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,847+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-ldap-realm-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,847+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-rrb-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,847+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugins:nexus-healthcheck-oss-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,847+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "com.sonatype.nexus.plugins:nexus-outreach-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,847+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-siesta-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,847+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-ui-extjs3-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,848+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-archetype-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,848+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-atlas-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,848+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-h2-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,848+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-crypto-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,848+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-content-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,848+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Plugin manager request "ACTIVATE" on plugin "org.sonatype.nexus.plugins:nexus-lvo-plugin:2.11.4-01" was successful.
+2023-01-04 14:07:42,849+0000 INFO  [main]  org.sonatype.nexus.events.EventSubscriberHost - Starting
+2023-01-04 14:07:43,108+0000 INFO  [main]  org.sonatype.nexus.apachehttpclient.Hc4ProviderImpl - Started (connectionPoolMaxSize 200, connectionPoolSize 20, connectionPoolIdleTime 30000 ms, connectionPoolTimeout 30000 ms, keepAliveMaxDuration 30000 ms)
+2023-01-04 14:07:43,144+0000 INFO  [main]  org.sonatype.nexus.timeline.DefaultNexusTimeline - Initializing Nexus Timeline...
+2023-01-04 14:07:43,146+0000 INFO  [main]  org.sonatype.nexus.timeline.DefaultNexusTimeline - Starting Nexus Timeline...
+2023-01-04 14:07:43,483+0000 INFO  [main]  org.sonatype.timeline.internal.DefaultTimeline - Started Timeline...
+2023-01-04 14:07:44,348+0000 INFO  [main]  org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Loading Nexus Configuration...
+2023-01-04 14:07:44,372+0000 INFO  [main]  org.sonatype.nexus.configuration.source.StaticConfigurationSource - Configuration loaded successfully.
+2023-01-04 14:07:44,386+0000 INFO  [main]  org.sonatype.nexus.configuration.source.FileConfigurationSource - Configuration loaded successfully.
+2023-01-04 14:07:44,564+0000 INFO  [main]  org.sonatype.nexus.configuration.source.FileConfigurationSource - Nexus configuration validated successfully.
+2023-01-04 14:07:44,630+0000 INFO  [main]  org.sonatype.nexus.configuration.application.DefaultNexusConfiguration - Applying Nexus Configuration...
+2023-01-04 14:07:44,648+0000 INFO  [main]  org.sonatype.security.configuration.source.FileSecurityConfigurationSource - Loading Security configuration from /home/ec2-user/sonatype-work/nexus/conf/security-configuration.xml
+2023-01-04 14:07:44,662+0000 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Cache with name 'XmlAuthenticatingRealm.authorizationCache' does not yet exist.  Creating now.
+2023-01-04 14:07:44,666+0000 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Added EhCache named [XmlAuthenticatingRealm.authorizationCache]
+2023-01-04 14:07:44,667+0000 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Cache with name 'XmlAuthorizingRealm.authorizationCache' does not yet exist.  Creating now.
+2023-01-04 14:07:44,671+0000 INFO  [main]  org.apache.shiro.cache.ehcache.EhCacheManager - Added EhCache named [XmlAuthorizingRealm.authorizationCache]
+2023-01-04 14:07:44,724+0000 INFO  [main]  org.sonatype.nexus.proxy.attributes.DefaultLSAttributeStorage - Default FS AttributeStorage in place, using JacksonJSON marshaller.
+2023-01-04 14:07:45,265+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Central" [id=central][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
+2023-01-04 14:07:45,314+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Apache Snapshots" [id=apache-snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
+2023-01-04 14:07:45,354+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Codehaus Snapshots" [id=codehaus-snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenProxyRepository]
+2023-01-04 14:07:45,403+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Releases" [id=releases][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2023-01-04 14:07:45,453+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Snapshots" [id=snapshots][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2023-01-04 14:07:45,499+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "3rd party" [id=thirdparty][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.maven.MavenHostedRepository]
+2023-01-04 14:07:45,534+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Central M1 shadow" [id=central-m1][contentClass=Maven1][mainFacet=org.sonatype.nexus.proxy.maven.MavenShadowRepository]
+2023-01-04 14:07:45,596+0000 INFO  [main]  org.sonatype.nexus.proxy.registry.DefaultRepositoryRegistry - Added repository "Public Repositories" [id=public][contentClass=Maven2][mainFacet=org.sonatype.nexus.proxy.repository.GroupRepository]
+2023-01-04 14:07:45,596+0000 INFO  [main]  org.sonatype.scheduling.DefaultScheduler - Initializing Scheduler...
+2023-01-04 14:07:45,597+0000 INFO  [main]  org.sonatype.nexus.scheduling.internal.DefaultTaskConfigManager - 0 task(s) to load.
+2023-01-04 14:07:45,601+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Nexus Work Directory : /home/ec2-user/sonatype-work/nexus
+2023-01-04 14:07:45,601+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Started Sonatype Nexus 2.11.4-01
+2023-01-04 14:07:46,180+0000 INFO  [main]  com.sonatype.nexus.plugins.nuget.odata.NugetODataGalleryMigrator - Starting Nuget DB migration.
+2023-01-04 14:07:46,193+0000 INFO  [main]  com.sonatype.nexus.plugins.nuget.odata.NugetODataGalleryMigrator - Completed Nuget DB migration.
+2023-01-04 14:07:46,465+0000 INFO  [main]  org.sonatype.nexus.webapp.WebappBootstrap - Initialized
+2023-01-04 14:07:46,816+0000 WARN  [ar-4-thread-2] *TASK org.sonatype.nexus.proxy.maven.routing.internal.RemoteContentDiscovererImpl - Remote strategy prefix-file error on M2Repository(id=codehaus-snapshots): java.net.UnknownHostException: nexus.codehaus.org: Name or service not known
+2023-01-04 14:07:46,857+0000 INFO  [main]  org.sonatype.nexus.rest.NexusApplication_UriMatching - Strict URI matching: true
+2023-01-04 14:07:47,037+0000 INFO  [main]  org.sonatype.nexus.configuration.ModelUtils - Loading model /home/ec2-user/sonatype-work/nexus/conf/lvo-plugin.xml
+2023-01-04 14:07:47,060+0000 INFO  [main]  org.sonatype.nexus.configuration.ModelUtils - Loading model /home/ec2-user/sonatype-work/nexus/conf/ldap.xml
+2023-01-04 14:07:47,424+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule - Resources:
+2023-01-04 14:07:47,424+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/analytics/events
+2023-01-04 14:07:47,424+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/analytics/settings
+2023-01-04 14:07:47,424+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/atlas/security-diagnostic
+2023-01-04 14:07:47,424+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/atlas/support-zip
+2023-01-04 14:07:47,424+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/atlas/system-information
+2023-01-04 14:07:47,424+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/capabilities
+2023-01-04 14:07:47,425+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/capabilities/stores
+2023-01-04 14:07:47,425+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/capabilities/types
+2023-01-04 14:07:47,425+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/gaDetails
+2023-01-04 14:07:47,425+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/gavDetails
+2023-01-04 14:07:47,430+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckEula
+2023-01-04 14:07:47,430+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckInfo
+2023-01-04 14:07:47,430+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckStatus
+2023-01-04 14:07:47,430+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/healthcheck/healthCheckSummary/{repositoryId}/{path:.*}
+2023-01-04 14:07:47,430+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/logging/log
+2023-01-04 14:07:47,431+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/logging/loggers
+2023-01-04 14:07:47,431+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/wonderland/authenticate
+2023-01-04 14:07:47,431+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/wonderland/download
+2023-01-04 14:07:47,431+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   /service/siesta/wonderland/settings
+2023-01-04 14:07:47,431+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule - Components:
+2023-01-04 14:07:47,431+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.capabilities.internal.rest.CapabilityNotFoundExceptionMapper
+2023-01-04 14:07:47,431+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.siesta.AuthorizationExceptionMapper
+2023-01-04 14:07:47,431+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.siesta.InvalidConfigurationExceptionMapper
+2023-01-04 14:07:47,431+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.nexus.plugins.siesta.NoSuchRepositoryExceptionMapper
+2023-01-04 14:07:47,431+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.jackson.JacksonProvider
+2023-01-04 14:07:47,431+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.BadRequestExceptionMapper
+2023-01-04 14:07:47,431+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ConstraintViolationExceptionMapper
+2023-01-04 14:07:47,431+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.InvalidObjectExceptionMapper
+2023-01-04 14:07:47,431+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ObjectNotFoundExceptionMapper
+2023-01-04 14:07:47,431+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ThrowableExceptionMapper
+2023-01-04 14:07:47,431+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.ValidationErrorsExceptionMapper
+2023-01-04 14:07:47,431+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.WebApplicationExceptionMapper
+2023-01-04 14:07:47,431+0000 INFO  [main]  org.sonatype.nexus.plugins.siesta.SiestaModule -   org.sonatype.sisu.siesta.server.internal.mappers.WebApplicationMessageExceptionMapper
+2023-01-04 14:07:49,049+0000 INFO  [main]  org.sonatype.nexus.webresources.internal.WebResourceServiceImpl - Discovered 1967 resources
+2023-01-04 14:07:49,056+0000 INFO  [main]  org.sonatype.nexus.webresources.internal.WebResourceServlet - Max-age: 30 days (2592000 seconds)
+2023-01-04 14:07:49,859+0000 INFO  [http-nio-8080-exec-1]  org.apache.shiro.nexus5727.FixedDefaultWebSessionManager - Global session timeout: 1800000 ms
+2023-01-04 14:07:49,864+0000 INFO  [http-nio-8080-exec-1]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Enabling session validation scheduler...
+2023-01-04 14:07:49,988+0000 INFO  [http-nio-8080-exec-1] *UNKNOWN org.sonatype.nexus.velocity.VelocityEngineProvider - Creating Nexus VelocityEngine
+2023-01-04 14:42:27,129+0000 INFO  [main]  org.sonatype.nexus.webapp.WebappBootstrap - Destroying
+2023-01-04 14:42:27,208+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Uptime: 35 minutes, 50 seconds and 3 milliseconds
+2023-01-04 14:42:27,210+0000 INFO  [main]  org.sonatype.scheduling.DefaultScheduler - Shutting down Scheduler...
+2023-01-04 14:42:27,237+0000 INFO  [main]  org.sonatype.nexus.apachehttpclient.Hc4ProviderImpl - Stopped
+2023-01-04 14:42:27,252+0000 INFO  [main]  org.sonatype.nexus.timeline.DefaultNexusTimeline - Stopping Nexus Timeline...
+2023-01-04 14:42:27,253+0000 INFO  [main]  org.sonatype.timeline.internal.DefaultTimeline - Stopped Timeline...
+2023-01-04 14:42:27,253+0000 INFO  [main]  org.sonatype.nexus.index.DefaultIndexerManager - Shutting down Nexus IndexerManager
+2023-01-04 14:42:27,275+0000 INFO  [main]  org.sonatype.nexus.events.EventSubscriberHost - Stopping
+2023-01-04 14:42:27,279+0000 INFO  [main]  org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Disabled session validation scheduler.
+2023-01-04 14:42:27,281+0000 INFO  [main]  org.sonatype.nexus.NxApplication - Stopped Sonatype Nexus 2.11.4-01
+2023-01-04 14:42:27,302+0000 INFO  [main]  org.sonatype.nexus.webapp.WebappBootstrap - Destroyed
